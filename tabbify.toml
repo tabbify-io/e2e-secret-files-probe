@@ -12,4 +12,5 @@ expose = "public"
 primary = true
 
 [env]
-PROBE_STAGE = "baseline"
+CERT_PATH = "secret-file:TEST_CERT"
+PLAIN_TOKEN = "secret:TEST_TEXT"
