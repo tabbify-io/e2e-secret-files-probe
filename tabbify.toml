@@ -1,0 +1,15 @@
+[app]
+name = "e2e-secret-files-probe"
+description = "Probe for the tenant file-secrets drill"
+
+[runtime]
+lifecycle = "always_on"
+
+[[runtime.ports]]
+port = 8080
+protocol = "http"
+expose = "public"
+primary = true
+
+[env]
+PROBE_STAGE = "baseline"
