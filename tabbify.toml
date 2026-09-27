@@ -12,4 +12,4 @@ expose = "public"
 primary = true
 
 [env]
-PROBE_STAGE = "baseline"
+CERT_PATH = "secret:TEST_CERT"
